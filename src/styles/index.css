@@ -10,3 +10,49 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+#brand{
+    display:flex;
+    justify-content: start;
+    color: #ffff;
+
+}
+.nav-item{
+    color: #ffff;
+}
+
+.col{
+    padding: 0%;
+    margin: 0%;
+}
+#navbarNav{
+    display: flex;
+    justify-content: end;
+    color: #ffff;
+}
+
+#allNav{
+    background-color: rgb(0, 0, 0);
+}
+
+.footer {
+    background-color: black;
+    color: grey;
+}
+
+.footer a {
+    color: #00aced;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer .logo {
+    border: 1px solid #fff;
+    border-radius: 50%;
+    width: 35px;
+    vertical-align: middle;
+    margin-left: 8px;
+}
