@@ -26,7 +26,6 @@
     margin: 0%;
 }
 #navbarNav{
-    display: flex;
     justify-content: end;
     color: #ffff;
 }
@@ -43,6 +42,11 @@
 .footer a {
     color: #00aced;
     text-decoration: none;
+}
+
+#jumbotron{
+    background: #3333;
+    padding: 8%;
 }
 
 .footer a:hover {

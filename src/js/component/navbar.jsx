@@ -1,7 +1,7 @@
 import React from "react";
 
 //include images into your bundle
-import PropTypes from "prop-types";
+import PropTypes, { array } from "prop-types";
 
 const Navbar = (props) => {
 	return (
@@ -14,7 +14,7 @@ const Navbar = (props) => {
             <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav">
             { props.items.map((item, index) => {
-               return <li key={index} className="nav-item"><a className="nav-link" href="#">{item}</a></li>
+               return <li key={index} className="nav-item"><a className={`nav-link ${index===0?"text-white":"text-secondary"}`}  id={index} href="#">{item}</a></li>
             })}
             </ul>
             </div>
