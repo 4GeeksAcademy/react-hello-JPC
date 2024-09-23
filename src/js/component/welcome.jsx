@@ -4,7 +4,7 @@ import React from "react";
 import PropTypes from "prop-types";
 
 const welcome = (props) => {
-	return (
+    return(
         <div className="container">
             <div className="card-body" id="jumbotron">
                 <h5 className="card-title" style={{ fontSize:'80px' }}>{props.title}</h5>
@@ -12,7 +12,7 @@ const welcome = (props) => {
                 <a href="#" className="btn btn-primary">{props.button}</a>
             </div>
         </div>
-    );
+    )
 };
 
 welcome.prototype = {

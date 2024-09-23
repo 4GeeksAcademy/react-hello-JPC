@@ -7,10 +7,10 @@ import PropTypes from "prop-types";
 const Cards = (props) => {
 	return (
         <div className="container">
-            <div className="row mt-3 justify-content-center">
+            <div className="row mt-3 d-flex justify-content-between">
             { props.properties.map((item, index) => {
                return (
-                <div key={index} className="col-lg-3 col-md-4 col-sm-6 mb-3 d-flex justify-content-center">
+                <div key={index} className="col-lg-3 col-md-4 col-sm-12 mb-3 d-flex justify-content-center">
                     <div  className="card" style={{ "width": "18rem" }}>
                         <img src={item.imagen} className="card-img-top" alt="..."/>
                         <div className="card-body">
