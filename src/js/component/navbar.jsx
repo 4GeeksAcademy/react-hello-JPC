@@ -6,7 +6,7 @@ import PropTypes, { array } from "prop-types";
 const Navbar = (props) => {
 	return (
         <nav className="navbar navbar-expand-lg navbar bg-dark pb-0">
-        <div className="container-card">
+        <div className="container-nav">
             <a className="navbar-brand" id="brand" href="#">{props.startboostrap}</a>
             <button className="navbar-toggler btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>

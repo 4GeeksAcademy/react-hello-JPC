@@ -53,7 +53,7 @@ const Home = () => {
 	return (
 		<div>
 			<Navbar startboostrap = "Start Boostrap" items = { ["Home", "About", "Service", "Contact"] } />
-			<Welcome title = "A Warm Welcome" parraf = "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident assumenda facilis inventore veritatis esse non eos repellat! Praesentium, voluptatibus repudiandae." button = "Call to Action!"/>
+			<Welcome title = "A Warm Welcome" parraf = "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore deleniti corrupti ipsam quod necessitatibus, ipsa iure repudiandae quos aut? Libero esse quod nihil nam deleniti, doloribus magni minus expedita quidem ullam, repellat dicta quas odit rerum, praesentium quisquam vel! Quaerat, similique officiis. Quasi aperiam sed itaque, provident excepturi in culpa!" button = "Call to Action!"/>
 			<Cards properties={cardData}/>
 			<Footer properties={footerData}/>
 		</div>
