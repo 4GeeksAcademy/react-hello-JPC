@@ -16,7 +16,7 @@ const Cards = (props) => {
                         <div className="card-body">
                             <h5 className="card-title">{item.title}</h5>
                             <p className="card-text">{item.description}</p>
-                            <a href={item.buttonURL} className="btn btn-primary">{item.buttonlabel}</a>
+                            <a href={item.buttonURL} className="btn btn-primary btn-card">{item.buttonlabel}</a>
                         </div>
                     </div>
                 </div>
