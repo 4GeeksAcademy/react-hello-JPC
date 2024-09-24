@@ -5,7 +5,7 @@ import PropTypes from "prop-types";
 
 const welcome = (props) => {
     return(
-        <div className="container">
+        <div className="container-card">
             <div className="card-body" id="jumbotron">
                 <h5 className="card-title" style={{ fontSize:'80px' }}>{props.title}</h5>
                 <p className="card-text">{props.parraf}</p>

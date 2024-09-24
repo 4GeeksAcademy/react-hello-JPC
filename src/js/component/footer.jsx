@@ -5,9 +5,9 @@ import PropTypes from "prop-types";
 
 const Footer = (props) => {
     return (
-        <div className="container-fluid fixed-bottom">
+        <div className=" fixed-bottom">
             {props.properties.map((item, index) => (
-                <footer key={index} className="footer mt-auto py-3 text-center">
+                <footer key={index} className="footer mt-auto py-2 text-center">
                     <p>
                         Made by{" "}
                         <a 
