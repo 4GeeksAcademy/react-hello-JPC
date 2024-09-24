@@ -5,7 +5,7 @@ import PropTypes from "prop-types";
 
 const Footer = (props) => {
     return (
-        <div className="container">
+        <div className="container-fluid fixed-bottom">
             {props.properties.map((item, index) => (
                 <footer key={index} className="footer mt-auto py-3 text-center">
                     <p>
